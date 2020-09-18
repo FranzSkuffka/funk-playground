@@ -1,0 +1,381 @@
+{
+    "itemsOnCanvas": [
+        {
+            "shared": {
+                "id": 484305396,
+                "padding": {
+                    "mode": "EqualPadding",
+                    "dimensions": {
+                        "top": null,
+                        "bottom": null,
+                        "left": null,
+                        "right": null
+                    }
+                },
+                "spacing": null,
+                "flow": "Column",
+                "children": [],
+                "absoluteChildren": [
+                    {
+                        "shared": {
+                            "id": 898592344,
+                            "padding": {
+                                "mode": "EqualPadding",
+                                "dimensions": {
+                                    "top": null,
+                                    "bottom": null,
+                                    "left": null,
+                                    "right": null
+                                }
+                            },
+                            "spacing": null,
+                            "flow": "Column",
+                            "children": [],
+                            "absoluteChildren": [],
+                            "label": "custom"
+                        },
+                        "outerGeometry": {
+                            "x1": 45.125,
+                            "x2": 205.875,
+                            "y1": 34,
+                            "y2": 354
+                        }
+                    }
+                ],
+                "label": "custom"
+            },
+            "outerGeometry": {
+                "x1": 309,
+                "x2": 560,
+                "y1": 186,
+                "y2": 636
+            }
+        },
+        {
+            "shared": {
+                "id": 2087323442,
+                "padding": {
+                    "mode": "EqualPadding",
+                    "dimensions": {
+                        "top": null,
+                        "bottom": null,
+                        "left": null,
+                        "right": null
+                    }
+                },
+                "spacing": null,
+                "flow": "Column",
+                "children": [],
+                "absoluteChildren": [],
+                "label": ""
+            },
+            "outerGeometry": {
+                "x1": 1221.692279665851,
+                "x2": 2270.0903880320916,
+                "y1": -206.3913826199023,
+                "y2": 704.8331414741202
+            }
+        },
+        {
+            "shared": {
+                "id": 1772498024,
+                "padding": {
+                    "mode": "EqualPadding",
+                    "dimensions": {
+                        "top": null,
+                        "bottom": null,
+                        "left": null,
+                        "right": null
+                    }
+                },
+                "spacing": null,
+                "flow": "Column",
+                "children": [],
+                "absoluteChildren": [
+                    {
+                        "shared": {
+                            "id": 1406301849,
+                            "padding": {
+                                "mode": "EqualPadding",
+                                "dimensions": {
+                                    "top": null,
+                                    "bottom": null,
+                                    "left": null,
+                                    "right": null
+                                }
+                            },
+                            "spacing": null,
+                            "flow": "Column",
+                            "children": [],
+                            "absoluteChildren": [],
+                            "label": ""
+                        },
+                        "outerGeometry": {
+                            "x1": 91.9999930227342,
+                            "x2": 304.9999930227342,
+                            "y1": 92.99998446610547,
+                            "y2": 298.9999844661055
+                        }
+                    }
+                ],
+                "label": ""
+            },
+            "outerGeometry": {
+                "x1": 614,
+                "x2": 1011,
+                "y1": 131,
+                "y2": 523
+            }
+        },
+        {
+            "shared": {
+                "id": 1167330327,
+                "padding": {
+                    "mode": "EqualPadding",
+                    "dimensions": {
+                        "top": null,
+                        "bottom": null,
+                        "left": null,
+                        "right": null
+                    }
+                },
+                "spacing": null,
+                "flow": "Column",
+                "children": [],
+                "absoluteChildren": [],
+                "label": ""
+            },
+            "outerGeometry": {
+                "x1": 657,
+                "x2": 996,
+                "y1": 733,
+                "y2": 1080
+            }
+        }
+    ],
+    "contentSources": {
+        "sources": [],
+        "selectedSource": null,
+        "menu": null
+    },
+    "dataConnections": [
+        {
+            "A1": 898592344,
+            "A2": {
+                "Constructor": "Static",
+                "A1": {
+                    "Constructor": "ImageSourceAndTitle",
+                    "A1": {
+                        "src": "root>assets/img_20200911_094513.060e4e9e30bcb9ae675a80328a87a687.jpg",
+                        "title": "IMG_20200911_094513.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "A1": 1406301849,
+            "A2": {
+                "Constructor": "Static",
+                "A1": {
+                    "Constructor": "ImageSourceAndTitle",
+                    "A1": {
+                        "src": "root>assets/img_20200911_094513.060e4e9e30bcb9ae675a80328a87a687.jpg",
+                        "title": "IMG_20200911_094513.jpg"
+                    }
+                }
+            }
+        }
+    ],
+    "elementStyles": [],
+    "actions": [],
+    "designSystem": {
+        "typo": {
+            "h1": {
+                "font": {
+                    "family": "Roboto",
+                    "variants": {
+                        "before": [],
+                        "current": "regular",
+                        "after": []
+                    },
+                    "subsets": [
+                        "cyrillic",
+                        "cyrillic-ext",
+                        "greek",
+                        "greek-ext",
+                        "latin",
+                        "latin-ext",
+                        "vietnamese"
+                    ],
+                    "category": "sans-serif"
+                },
+                "size": 60,
+                "name": "h1"
+            },
+            "h2": {
+                "font": {
+                    "family": "Roboto",
+                    "variants": {
+                        "before": [],
+                        "current": "regular",
+                        "after": []
+                    },
+                    "subsets": [
+                        "cyrillic",
+                        "cyrillic-ext",
+                        "greek",
+                        "greek-ext",
+                        "latin",
+                        "latin-ext",
+                        "vietnamese"
+                    ],
+                    "category": "sans-serif"
+                },
+                "size": 40,
+                "name": "h2"
+            },
+            "h3": {
+                "font": {
+                    "family": "Roboto",
+                    "variants": {
+                        "before": [],
+                        "current": "regular",
+                        "after": []
+                    },
+                    "subsets": [
+                        "cyrillic",
+                        "cyrillic-ext",
+                        "greek",
+                        "greek-ext",
+                        "latin",
+                        "latin-ext",
+                        "vietnamese"
+                    ],
+                    "category": "sans-serif"
+                },
+                "size": 20,
+                "name": "h3"
+            },
+            "bodyCopy": {
+                "font": {
+                    "family": "Roboto",
+                    "variants": {
+                        "before": [],
+                        "current": "regular",
+                        "after": []
+                    },
+                    "subsets": [
+                        "cyrillic",
+                        "cyrillic-ext",
+                        "greek",
+                        "greek-ext",
+                        "latin",
+                        "latin-ext",
+                        "vietnamese"
+                    ],
+                    "category": "sans-serif"
+                },
+                "size": 16,
+                "name": "body copy"
+            },
+            "others": []
+        },
+        "colorEditor": null,
+        "iconBrowser": {
+            "iconSetsView": "ViewNoIconSet",
+            "iconSets": {
+                "before": [
+                    {
+                        "repo": "michaelampr/jam",
+                        "sha": "4c148783c30645d0987496f614bb8374f52bd3cf",
+                        "tag": "2.0.0",
+                        "icons": null
+                    }
+                ],
+                "current": {
+                    "repo": "ionic-team/ionicons",
+                    "sha": "1069d8b4ab2b134fa6952373a78862fcb8f8d28e",
+                    "tag": "5.0.0",
+                    "icons": null
+                },
+                "after": [
+                    {
+                        "repo": "feathericons/feather",
+                        "sha": "8263ca93c4b338dcfafed62321c27a88368ba7cc",
+                        "tag": "v4.28.0",
+                        "icons": null
+                    }
+                ]
+            },
+            "customIconSets": [],
+            "selectedCustomIconSet": null,
+            "searchInput": "",
+            "addCustomIconSetInput": null,
+            "addIconSetInput": null,
+            "newRemoteIconSet": null,
+            "hoveredElements": null,
+            "colorPalette": {
+                "before": [],
+                "current": {
+                    "hue": 0.2635135135135135,
+                    "saturation": 0.381443298969072,
+                    "lightness": 0.6196078431372549,
+                    "alpha": 1
+                },
+                "after": [
+                    {
+                        "hue": 0.9870689655172414,
+                        "saturation": 0.6516853932584276,
+                        "lightness": 0.6509803921568628,
+                        "alpha": 1
+                    },
+                    {
+                        "hue": 0.5751173708920188,
+                        "saturation": 0.8160919540229892,
+                        "lightness": 0.6588235294117647,
+                        "alpha": 1
+                    },
+                    {
+                        "hue": 0.5185185185185185,
+                        "saturation": 0.469565217391304,
+                        "lightness": 0.5490196078431373,
+                        "alpha": 1
+                    },
+                    {
+                        "hue": 0.10849056603773584,
+                        "saturation": 0.6708860759493671,
+                        "lightness": 0.6901960784313725,
+                        "alpha": 1
+                    },
+                    {
+                        "hue": 0.013888888888888876,
+                        "saturation": 0.4800000000000001,
+                        "lightness": 0.5098039215686274,
+                        "alpha": 1
+                    },
+                    {
+                        "hue": 0.795379537953795,
+                        "saturation": 0.5976331360946743,
+                        "lightness": 0.6686274509803922,
+                        "alpha": 1
+                    },
+                    {
+                        "hue": 0.0809968847352025,
+                        "saturation": 0.5376884422110548,
+                        "lightness": 0.6098039215686275,
+                        "alpha": 1
+                    }
+                ]
+            }
+        },
+        "menu": null
+    },
+    "deployEditor": {
+        "deploy": null,
+        "menu": null
+    },
+    "modelEditor": {
+        "fields": [],
+        "mappings": []
+    }
+}
