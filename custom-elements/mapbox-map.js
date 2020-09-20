@@ -11,7 +11,7 @@ class MapboxMap extends HTMLElement {
 const refresh = (el) => debounce(() => {
     el.resizeObserver.unobserve(el)
     el.map.resize()
-    el.resizeObserver.observe(el)
+    // el.resizeObserver.observe(el)
 }, 200)
 const mount = async el => {
     el.style.height = "100%"
