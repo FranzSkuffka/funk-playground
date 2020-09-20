@@ -8,11 +8,6 @@ class MapboxMap extends HTMLElement {
         console.log('disconnected', this)
     }
 }
-const refresh = (el) => debounce(() => {
-    el.resizeObserver.unobserve(el)
-    el.map.resize()
-    // el.resizeObserver.observe(el)
-}, 200)
 const mount = async el => {
     el.style.height = "100%"
     el.style.width = "100%"
@@ -30,9 +25,15 @@ const mount = async el => {
     }
     el.map = new mapboxgl.Map(settings)
     el.resizeObserver = new ResizeObserver(refresh(el));
-    el.resizeObserver.observe(el)
+    // el.resizeObserver.observe(el)
     el.map.on('load', () => refresh(el));
+    el.map.on('resize', () => el.resizeObserver.observe(el));
 }
+// do not trigger the resize observer when the map is resizing itself
+const refresh = (el) => debounce(() => {
+    el.resizeObserver.unobserve(el)
+    el.map.resize()
+}, 200)
 
 
 const name = "mapbox-map"
