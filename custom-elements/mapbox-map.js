@@ -27,7 +27,7 @@ const mount = async el => {
     el.resizeObserver = new ResizeObserver(refresh(el));
     // el.resizeObserver.observe(el)
     el.map.on('load', () => refresh(el));
-    el.map.on('resize', () => el.resizeObserver.observe(el));
+    el.map.on('resize', () => setTimeout(el.resizeObserver.observe(el), 50));
 }
 // do not trigger the resize observer when the map is resizing itself
 const refresh = (el) => debounce(() => {
