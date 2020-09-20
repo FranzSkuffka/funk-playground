@@ -9,9 +9,9 @@ class MapboxMap extends HTMLElement {
     }
 }
 const refresh = (el) => debounce(() => {
-    el.observer.unobserve(el)
+    el.resizeObserver.unobserve(el)
     el.map.resize()
-    el.observer.observe(el)
+    el.resizeObserver.observe(el)
 }, 200)
 const mount = async el => {
     el.style.height = "100%"
@@ -31,9 +31,7 @@ const mount = async el => {
     el.map = new mapboxgl.Map(settings)
     el.resizeObserver = new ResizeObserver(refresh(el));
     el.resizeObserver.observe(el)
-    map.on('load', function () {
-        map.resize();
-    });
+    el.map.on('load', () => refresh(el));
 }
 
 
